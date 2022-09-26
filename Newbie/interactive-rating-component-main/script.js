@@ -19,7 +19,7 @@ $('span').click(function () {
 
 $('button').click(function () {
     if (localStorage.getItem('stars-quantity') === null) {
-        alert('olá')
+        alert("Please, don't forget to hate us")
     } else {
         rateBox.style.display = 'none';
         thanksBox.style.display = 'block';
