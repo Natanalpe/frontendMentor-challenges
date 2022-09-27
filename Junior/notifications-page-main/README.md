@@ -36,7 +36,7 @@ Esta é uma solução para [Product preview card component challenge on Frontend
 
 ### Links
 
-- Live project: [vizualizar projeto](https://phenomenal-begonia-44de4d.vercel.app/)
+- Live project: [vizualizar projeto](https://notifications-page-s827-9qcy6z8l3-natanalpe.vercel.app/)
 
 
 ### Construido com
