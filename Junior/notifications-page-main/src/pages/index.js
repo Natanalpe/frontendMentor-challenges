@@ -10,25 +10,23 @@ import rizkyHasanuddin from '../assets/images/avatar-rizky-hasanuddin.webp';
 import chess from '../assets/images/image-chess.webp';
 
 function Main() {
-    var readeds = document.querySelectorAll('.unreaded');
-    const [numNoties, setNumNoties] = useState(readeds.length);
 
-    function MarkAsReaded() {
-        readeds.forEach(e => {
-            e.classList.remove('unreaded')
-        })
-        setNumNoties(0)
-    };
-    console.log(numNoties)
+    const [unreaded, setUnreaded] = useState('unreaded')
+    const [unreadQuantity, setUnreadQuantity] = useState(document.getElementsByClassName('unreaded').length)
+
+    useEffect(() => {
+        setUnreadQuantity(document.getElementsByClassName('unreaded').length)
+    }, [unreaded])
+
     return (
         <Container>
             <div id='box'>
                 <div id='top-note'>
-                    <h1>Notifications {numNoties >= 1 ? <span className='number-noti'>{numNoties}</span>: ''}</h1>
+                    <h1>Notifications {unreadQuantity >= 1 ? <span className='number-noti'>{unreadQuantity}</span>: ''}</h1>
 
-                    <span className='mark-read' onClick={MarkAsReaded}>Mark all as read</span>
+                    <span className='mark-read' onClick={() => setUnreaded('')}>Mark all as read</span>
                 </div>
-                <div className="singular-noti normal unreaded">
+                <div className={`singular-noti normal ${unreaded}`}>
                     <img src={markWebber} className="profile-image" alt='Avatar' />
                     <p className='text-noti'>
                         <strong className='user-name'>Mark Webber</strong> reacted to your recent post <span className='event last'>My first tournament today!</span>
@@ -36,7 +34,7 @@ function Main() {
                     <span className='time'>1m ago</span>
 
                 </div>
-                <div className="singular-noti normal unreaded">
+                <div className={`singular-noti normal ${unreaded}`}>
                     <img src={angelaGray} className="profile-image" alt='Avatar' />
                     <p className='text-noti last'>
                         <strong className='user-name'>Angela Gray</strong> followed you
@@ -44,7 +42,7 @@ function Main() {
                     <span className='time'>5m ago</span>
 
                 </div>
-                <div className="singular-noti normal unreaded">
+                <div className={`singular-noti normal ${unreaded}`}>
                     <img src={jacobThompson} className="profile-image" alt='Avatar' />
                     <p className='text-noti'>
                         <strong>Jacob Thompson</strong> has joined your group <span className='event last'>Chess Club</span>
