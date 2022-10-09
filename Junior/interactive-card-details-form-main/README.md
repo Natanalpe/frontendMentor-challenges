@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-Esta é uma solução para [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges ajuda a melhorar suas habilidades e skills.
+Esta é uma solução para [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). Frontend Mentor challenges ajuda a melhorar suas habilidades e skills.
 
 # Rodar o projeto
 
@@ -28,10 +28,13 @@ Esta é uma solução para [Product preview card component challenge on Frontend
 
 - Vizualizar um layout otimizado e com auto-ajustamento para diferentes dispositivos.
 - Vizualizar hover e focus states em elemento interativos
+- Vizualizar a movimentação interativa e modificação do cartão
 
 ### Screenshot
 
 ![](./src/markdown/screenshot-1.png)
+![](./src/markdown/screenshot-2.png)
+![](./src/markdown/screenshot-3.png)
 
 
 ### Links
@@ -43,6 +46,7 @@ Esta é uma solução para [Product preview card component challenge on Frontend
 
 - React Js
   - React Hooks
+  - Vanilla Tilti Library
 - CSS custom properties
   - Flexbox
   - Grid
