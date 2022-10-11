@@ -39,7 +39,7 @@ Esta é uma solução para [Interactive card details form challenge on Frontend 
 
 ### Links
 
-- Live project: [vizualizar projeto](https://notifications-page-s827-fbmwa377b-natanalpe.vercel.app/)
+- Live project: [vizualizar projeto](https://interactive-card-details-seven.vercel.app/)
 
 
 ### Construido com
