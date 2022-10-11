@@ -36,7 +36,7 @@ Esta é uma solução para [Product preview card component challenge on Frontend
 
 ### Links
 
-- Live project: [vizualizar projeto]([https://notifications-page-s827-fbmwa377b-natanalpe.vercel.app/](https://63450f7dd7b64c6cf5d0276f--expenses-chart-nalpe.netlify.app/))
+- Live project: [vizualizar projeto](https://63450f7dd7b64c6cf5d0276f--expenses-chart-nalpe.netlify.app/)
 
 
 ### Construido com
