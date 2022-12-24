@@ -1,0 +1,138 @@
+* {
+     box-sizing: border-box;
+     font-family: 'Outfit', sans-serif;
+     padding: 0;
+     margin: 0;
+}
+
+body {
+     background: hsl(217, 54%, 11%);
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-direction: column;
+     height: 100vh;
+     overflow: hidden;
+}
+
+main {
+     background: hsl(216, 50%, 16%);
+     width: 280px;
+     height: 500px;
+     padding: 20px;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     position: relative;
+
+     -webkit-box-shadow: 0px 40px 10px 14px hsl(217, 54%, 10%), 0px 30px 10px 38px hsl(215,57%,10%);
+     -moz-box-shadow: 0px 40px 10px 14px hsl(217, 54%, 10%), 0px 30px 10px 38px hsl(215,57%,10%);
+     box-shadow: 0px 40px 10px 14px hsl(217, 54%, 10%), 0px 30px 10px 38px hsl(215,57%,10%);
+
+     /* -webkit-box-shadow: 0px 13px 10px 25px rgba(0, 0, 0, 1);
+     -moz-box-shadow: 0px 13px 10px 25px rgba(0, 0, 0, 1);
+     box-shadow: 0px 13px 10px 25px rgba(0, 0, 0, 1); */
+}
+
+h1 {
+     font-size: 22px;
+     font-weight: 600;
+}
+
+.soft-blue {
+     color: hsl(215, 51%, 70%);
+}
+
+#currency-value {
+     color: hsl(178, 100%, 50%);
+}
+
+.active-blue {
+     transition: .3s;
+     color: hsl(0, 0%, 100%);
+}
+
+.active-blue:hover {
+     color: hsl(178, 100%, 50%);
+     cursor: pointer;
+}
+
+.description {
+     font-weight: 400;
+     font-size: 14px;
+}
+
+.countdown {
+     font-weight: 300;
+     font-size: 15px;
+}
+
+hr {
+     background-color: hsl(215, 51%, 70%);
+     border: none;
+     height: 1px;
+
+}
+
+.user {
+     display: flex;
+     align-items: center;
+}
+
+#currency-inf {
+     display: flex;
+     justify-content: space-between;
+}
+
+#currency-inf div {
+     display: flex;
+}
+
+#currency-inf div p {
+     margin-left: 5px;
+}
+
+footer {
+     color: white;
+     text-align: center;
+}
+
+footer a {
+     color: rgb(0, 255, 247);
+}
+
+/*#region images*/
+
+#item {
+     max-width: 100%;
+     border-radius: 9px;
+}
+
+#item-inner {
+     transition: .3s;
+     position: absolute;
+     transform: translate(0%, -40%);
+     background: hsla(178, 100%, 50%, 0);
+     filter: opacity(0);
+     border-radius: 9px;
+     padding: 96px;
+     cursor: pointer;
+}
+
+
+#item-inner:hover{
+     background: hsla(178, 100%, 50%, .5);
+     filter: opacity(1);
+}
+
+#profile-picture {
+     width: 35px;
+     border: 1px solid hsl(0, 0%, 100%);
+     border-radius: 50%;
+}
+
+#creator {
+     margin-left: 8px;
+}
+/*#endregion images*/
