@@ -10,7 +10,7 @@ This is a solution to the [Order summary component challenge on Frontend Mentor]
   - [Links](#links)
   - [Construido com](#construido-com)
   - [Testado com](#testes)
-- [Autor](#author)
+- [Autor](#autor)
 
 ## Geral
 
