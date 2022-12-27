@@ -8,8 +8,8 @@ This is a solution to the [Order summary component challenge on Frontend Mentor]
   - [Desafio](#o-desafio)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Construido com](#Construido-com)
-  - [Testado Com](#Testes)
+  - [Construido com](#construido-com)
+  - [Testado com](#testes)
 - [Autor](#author)
 
 ## Geral
@@ -42,7 +42,7 @@ This is a solution to the [Order summary component challenge on Frontend Mentor]
   
 - Javascript
 
-#Testes
+### Testes
 
 - Testado com PageSpeed Insights: [Vizualizar insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fbrilliant-speculoos-4369c9.netlify.app%2F)
 
