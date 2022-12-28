@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     transition: .3s;
+}
+
+.f-lexend-deca {
+     font-family: 'Lexend Deca', sans-serif;
+}
+
+.f-bs-display {
+     font-family: 'Big Shoulders Display', cursive;
+}
+
+body {
+     background: hsl(0, 0%, 95%);
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: column;
+     padding: 30px;
+}
+
+main {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+div {
+     width: 280px;
+     height: 450px;
+     padding: 40px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+h1 {
+     font-family: 'Big Shoulders Display', cursive;
+     color: hsl(0, 0%, 100%);
+     text-transform: uppercase;
+     font-size: 35px;
+}
+
+p {
+     font-family: 'Lexend Deca', sans-serif;
+     color: hsla(0, 0%, 100%, .75);
+     font-size: 15px;
+}
+
+#sedan {
+     border-radius: 8px 0 0 8px;
+     background: hsl(31, 77%, 52%);
+}
+
+.sd-color {
+     color: hsl(31, 77%, 52%);
+}
+
+#suv {
+     background: hsl(184, 100%, 22%);
+}
+
+.sv-color {
+     color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+     border-radius: 0 8px 8px 0;
+     background: hsl(179, 100%, 13%);
+}
+
+.lx-color {
+     color: hsl(179, 100%, 13%);
+}
+
+img {
+     width: 60px;
+}
+
+button {
+     width: 140px;
+     height: 50px;
+     background: hsl(0, 0%, 95%);
+     border: 1px solid hsl(0, 0%, 95%);
+     border-radius: 100px;
+     font-size: 1rem;
+     font-weight: 400;
+     font-family: 'Lexend Deca', sans-serif;
+     cursor: pointer;
+}
+
+button:hover {
+     background: transparent;
+     color: hsl(0, 0%, 100%);
+}
+
+footer {
+     margin-top: 80px;
+     text-align: center;
+}
+
+@media (max-width: 850px) {
+     main {
+          flex-direction: column;
+          justify-content: space-around;
+          padding: 50px 0;
+     }
+
+     #sedan {
+          border-radius: 8px 8px 0 0;
+          background: hsl(31, 77%, 52%);
+     }
+
+     #luxury {
+          border-radius: 0 0 8px 8px;
+          background: hsl(179, 100%, 13%);
+     }
+}
