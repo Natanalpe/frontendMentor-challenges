@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-Esta é uma solução para [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges ajuda a melhorar suas habilidades e skills.
+Esta é uma solução para [Advice Generator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges ajuda a melhorar suas habilidades e skills.
 
 # Rodar o projeto
 
