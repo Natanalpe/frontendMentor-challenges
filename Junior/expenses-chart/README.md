@@ -1,6 +1,6 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Expenses chart component
 
-Esta é uma solução para [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges ajuda a melhorar suas habilidades e skills.
+Esta é uma solução para [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges ajuda a melhorar suas habilidades e skills.
 
 # Rodar o projeto
 
